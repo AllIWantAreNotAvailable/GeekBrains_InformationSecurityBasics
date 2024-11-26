@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "3-information security basics"
+version = "0.1.0"
+description = ""
+authors = ["Kirill Momotov <110722874+AllIWantAreNotAvailable@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

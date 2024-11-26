@@ -1,0 +1,22 @@
+mid,name,description,url,rating
+M1040,Behavior Prevention on Endpoint,"Use capabilities to prevent suspicious behavior patterns from occurring on endpoint systems. This could include suspicious process, file, API call, etc. behavior.",https://attack.mitre.org/mitigations/M1040,6
+M1038,Execution Prevention,"Block execution of code on a system through application control, and/or script blocking.",https://attack.mitre.org/mitigations/M1038,6
+M1018,User Account Management,"Manage the creation, modification, use, and permissions associated to user accounts.",https://attack.mitre.org/mitigations/M1018,6
+M1026,Privileged Account Management,"Manage the creation, modification, use, and permissions associated to privileged accounts, including SYSTEM and root.",https://attack.mitre.org/mitigations/M1026,5
+M1022,Restrict File and Directory Permissions,Restrict access by setting directory and file permissions that are not specific to users or privileged accounts.,https://attack.mitre.org/mitigations/M1022,4
+M1047,Audit,"Perform audits or scans of systems, permissions, insecure software, insecure configurations, etc. to identify potential weaknesses.",https://attack.mitre.org/mitigations/M1047,4
+M1045,Code Signing,Enforce binary and application integrity with digital signature verification to prevent untrusted code from executing.,https://attack.mitre.org/mitigations/M1045,3
+M1042,Disable or Remove Feature or Program,Remove or deny access to unnecessary and potentially vulnerable software to prevent abuse by adversaries.,https://attack.mitre.org/mitigations/M1042,3
+M1049,Antivirus/Antimalware,Use signatures or heuristics to detect malicious software.,https://attack.mitre.org/mitigations/M1049,2
+M1028,Operating System Configuration,Make configuration changes related to the operating system or a common feature of the operating system that result in system hardening against techniques.,https://attack.mitre.org/mitigations/M1028,2
+M1024,Restrict Registry Permissions,Restrict the ability to modify certain hives or keys in the Windows Registry.,https://attack.mitre.org/mitigations/M1024,2
+M1021,Restrict Web-Based Content,"Restrict use of certain websites, block downloads/attachments, block Javascript, restrict browser extensions, etc.",https://attack.mitre.org/mitigations/M1021,1
+M1054,Software Configuration,Implement configuration changes to software (other than the operating system) to mitigate security risks associated to how the software operates.,https://attack.mitre.org/mitigations/M1054,1
+M1050,Exploit Protection,Use capabilities to detect and block conditions that may lead to or be indicative of a software exploit occurring.,https://attack.mitre.org/mitigations/M1050,1
+M1033,Limit Software Installation,Block users or groups from installing unapproved software.,https://attack.mitre.org/mitigations/M1033,1
+M1017,User Training,"Train users to be aware of access or manipulation attempts by an adversary to reduce the risk of successful spearphishing, social engineering, and other techniques that involve user interaction.",https://attack.mitre.org/mitigations/M1017,1
+M1013,Application Developer Guidance,This mitigation describes any guidance or training given to developers of applications to avoid introducing security weaknesses that an adversary may be able to take advantage of.,https://attack.mitre.org/mitigations/M1013,1
+M1044,Restrict Library Loading,Prevent abuse of library loading mechanisms in the operating system and software to load untrusted code by configuring appropriate library loading mechanisms and investigating potential vulnerable software.,https://attack.mitre.org/mitigations/M1044,1
+M1051,Update Software,Perform regular software updates to mitigate exploitation risk.,https://attack.mitre.org/mitigations/M1051,1
+M1052,User Account Control,Configure Windows User Account Control to mitigate risk of adversaries obtaining elevated process access.,https://attack.mitre.org/mitigations/M1052,1
+M1032,Multi-factor Authentication,Use two or more pieces of evidence to authenticate to a system; such as username and password in addition to a token from a physical smart card or token generator.,https://attack.mitre.org/mitigations/M1032,1
